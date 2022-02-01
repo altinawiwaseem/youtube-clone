@@ -1,0 +1,47 @@
+.second-menu {
+  width: 80%;
+  height: 7rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-start: 2;
+}
+
+.samsung-logo {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 1fr 20px
+}
+.samsung-logo input[type="button"] {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  height: 2rem;
+  width: 6.5rem;
+  border-radius: 5%;
+  align-self: center;
+  
+}
+.samsung-logo span {
+  background-color: black;
+  display: flex;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.second-nav-bar ul {
+  display: flex;
+  position: relative;
+  left: 6.3em;
+
+}
+.second-nav-bar .fa-search{
+    /* background-color: black; */
+    position: relative;
+    font-size: 1.3rem;
+    left: 2rem;
+    color:#6060607c ;
+} 

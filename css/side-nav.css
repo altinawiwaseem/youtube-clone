@@ -1,0 +1,18 @@
+ul li{
+margin: 1rem; 
+list-style: none;
+font-family: var(--font-family);
+
+
+
+}
+ul li a{
+   
+   font-weight: bold;
+   font-size: var(--side-nav-font-size);
+
+}
+hr{
+    border: .5px #ccc solid;
+    width: 90%;
+}
