@@ -16,3 +16,8 @@ hr{
     border: .5px #ccc solid;
     width: 90%;
 }
+ul i{
+    margin: 5px 10px 0 8px;
+    font-size: 18px;
+    opacity: .7;
+}
