@@ -16,8 +16,7 @@ Clone a youtube layout
 - using html & css only
 - applying Grid to the main layout and flex for the individual items
 
-### How to use this project
-An assignment given by DCI institute for practicing purpose 
+
 
 #### Developed with
 - [x] _HTML5_
