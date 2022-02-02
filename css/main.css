@@ -1,7 +1,6 @@
 .main-body {
   display: grid;
-  grid-template-columns: 210px auto;
-   grid-template-rows: repeat(auto-fill); 
+  grid-template-columns: 15vw auto;
   grid-template-areas:
     "side-bar top-photo "
     "side-bar second-menu "
@@ -9,65 +8,76 @@
     "side-bar video";
 }
 .top-pic {
-    grid-area: top-photo;
-    height: 12.5rem;
-    margin-bottom: 1rem;
-    
-  }
-  .side-menu {
-    grid-area: side-bar;
-  }
-  .video-section {
-    grid-area: video;
-  }
+  grid-area: top-photo;
+  height: 12.5rem;
+  margin-bottom: 1rem;
+}
+.side-menu {
+  grid-area: side-bar;
+}
+.video-section {
+  grid-area: video;
+}
 
 .videos {
   background-color: var(--videos-container-bg-color);
   grid-row-start: 3;
   position: relative;
-  /* left: 7rem; */
-  width: 99%;
+  width: 100%;
+  display: flex;
 }
 .top-pic img {
   width: 100%;
   height: 100%;
 }
 .video-section {
-    width: 50%;
-  display: grid;
+  margin-top: 4rem;
+  display: flex;
   position: relative;
-  left: 5.2rem;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 0.3rem;
-  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  
 }
 .video-container {
-  width: 195px;
-  height: 190px;
+  width: 15vw;
+  height: 220px;
   display: flex;
   flex-direction: column;
   font-size: var(--font-size);
-  
 }
 .thumbnail-img {
   width: 100%;
   height: 100%;
 }
-.video-detail{
+.video-detail {
   height: 3rem;
-  font-size: 1.4;
-  font-family:var(--font-family);
-  font-weight: 900;
-  margin-top: .5rem;
-  
-}
-.detail{
-  /* margin-top: 1rem; */
-}
-.detail span{
-  font-size: var(--video-detail-font-size);
-  opacity: .9;
-  margin-bottom: 8px;
-  
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: bolder;
+  margin-top: 0.5rem;
 }
 
+.detail span {
+  font-size: var(--video-detail-font-size);
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+.upload ul {
+  display: flex;
+  justify-content: space-between;
+  width: 78vw;
+  position: absolute;
+  margin-left: 2.5rem;
+ 
+}
+.upload ul li a{
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight:900;
+}
+.fa-sort-down{
+  font-size: 24px;
+ 
+}
