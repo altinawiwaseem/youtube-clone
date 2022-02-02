@@ -18,8 +18,10 @@ header{
 }
 .search-bar{
     display: flex;
-    flex-grow: .5;
+    justify-content: center;
+    width: 90rem;
     margin:0 2rem 0 10rem ;
+    
 }
  input[type="search"]{
     width: 60%;
@@ -54,4 +56,7 @@ header{
     padding: 4px;
     border: 1px black solid;
     background-color: blueviolet;
+}
+.fa-bars{
+    margin: 1rem;
 }

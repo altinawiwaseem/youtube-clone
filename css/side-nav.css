@@ -2,7 +2,7 @@ ul li{
 margin: 1rem; 
 list-style: none;
 font-family: var(--font-family);
-
+margin-left:  1rem; 
 
 
 }
