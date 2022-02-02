@@ -1,62 +1,68 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5rem;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+}
+.logo {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtube-logo {
+  height: 25px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  margin: 0 2rem 0 10rem;
+  border-color: gray;
+}
 
+input[type="search"] {
+  width: 60%;
+  height: 2.3rem;
+  border: 1px #ccc solid;
 }
-.logo{
-    display: flex;
-    width: 7rem;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.youtube-logo{
-    height: 25px;
 
+header .fa-search {
+  width: 3.3rem;
+  height: 2rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: white;
+  
 }
-.search-bar{
-    display: flex;
-    justify-content: center;
-    width: 90rem;
-    margin:0 2rem 0 10rem ;
-    
+header .fa-search:hover{
+    background-color: #f8f8f8;
 }
- input[type="search"]{
-    width: 60%;
-    height: 2rem;
-} 
- header .fa-search {
-    
-    width: 4rem;
-    height: 1.5rem;
-    padding: .4rem ;
-    cursor: pointer;
-     
-} 
-.fa-microphone{
-    width: 4rem;
-    height: 1.5rem;
-    padding: .4rem;
-    margin-left: 1rem;
+.fa-microphone {
+  width: 4rem;
+  height: 1.5rem;
+  padding: 0.6rem;
+  margin-left: 1rem;
+  cursor: pointer;
 }
-.header-icon{
-    display: grid;
-    grid-template-columns:repeat(4, auto);
-    gap: 1.5rem;
-   align-items: center;
-   
+.header-icon {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+  right: 2rem;
 }
-.header-icon i{
-    color: #424242;
+.header-icon i {
+  color: #424242;
 }
-.channel-icon{
-    border-radius: 100%;
-    padding: 4px;
-    border: 1px black solid;
-    background-color: blueviolet;
+.channel-icon {
+  border-radius: 100%;
+  padding: 4px;
+  border: 1px black solid;
+  background-color: blueviolet;
+  color: white;
 }
-.fa-bars{
-    margin: 1rem;
+.fa-bars {
+  margin: 0 1rem 0 1.3rem;
 }
